@@ -1,0 +1,91 @@
+
+
+/* Dropdown content (hidden ) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #807E7E;
+  min-width: 160px;
+  flex-direction: column; 
+  
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+
+}
+
+   
+  .navbar
+{
+   
+	background-color: #8C8989;
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 70px;
+	display: flex;
+    align-items: center;
+
+   
+    }
+   .image-container {
+      text-align: center;
+	  padding-top: 30px;/* Center images  */
+   }
+
+    /*  for navigation links */
+    .navbar a {
+      display: block;;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    
+}
+    
+
+body {
+	background-image: url(background_img.jpg);
+	background-size: cover;
+	flex-direction: column;
+	align-items: center;
+	height: 100px;
+	margin: 0;
+  } 
+
+ h1 {
+	 font-size:70px;
+     height: 100px; /* Ensure full height */
+	 text-align: center;
+	
+  }
+ .image-container img {
+    margin-right: 110px; /* Adjust this value to increase/decrease space */
+    border: 2px solid black;
+  }
+
+.image-container p {
+            font-weight: bold;
+            font-size: 25px;
+            margin-top: 10px;
+        }
+
+.image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;  /*to make pic in the center*/
+        } 
+
+
+#footer {
+	
+	background-color: #DFCBE3;
+	color: #FFFFFF;
+	padding: 10px 0;
+	position: absolute;
+    bottom: 0;
+    width: 100%;
+	text-align: center;
+}
